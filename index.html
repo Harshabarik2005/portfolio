@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsha B — Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Harsha B — Computer Science Engineer, Full-Stack Developer, and AI Enthusiast." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Devicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">H<span>B</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal">Harsha B</h1>
+      <p class="hero-title reveal">CS Undergrad &bull; Software Developer &bull; AI &amp; ML Enthusiast</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <!-- Replace src with your photo -->
+          <img src="assets/images/profile.jpeg" alt="Harsha B" class="profile-img" id="profileImg" />
+        </div>
+        <div class="about-text reveal">
+          <p>I am a <strong>3rd-year Computer Science student</strong> (CGPA: 8.9) who loves transitioning complex ideas
+            into production-ready software. I thrive at the intersection of <strong>Applied AI</strong> and
+            <strong>Full-Stack Development</strong>, building systems that are both intelligent and scalable.
+          </p>
+          <p>Beyond standard full-stack components, my architectural interests are currently spanning towards
+            <strong>Edge AI computing</strong>, <strong>decentralized Knowledge Graphs</strong>, and
+            <strong>Neuro-Symbolic AI</strong>. I am also the <strong>co-inventor of a published Indian Patent</strong>
+            in Bio-Medical Engineering, reflecting my bias for building tangible, high-impact technology.
+          </p>
+          <p>Currently seeking <strong>Software Engineering</strong> and <strong>Machine Learning</strong> internships.
+            I am eager to join a fast-paced engineering team where I can ship resilient code, tackle rigorous
+            architectural problems, and create scalable impact.</p>
+          <div class="about-links">
+            <a href="assets/Harsha_Resume.pdf" target="_blank" rel="noopener" class="social-link"
+              aria-label="Download Resume" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Resume
+            </a>
+            <a href="https://github.com/Harshabarik2005" target="_blank" rel="noopener" class="social-link"
+              aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/harshabarik" target="_blank" rel="noopener" class="social-link"
+              aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+              LinkedIn
+            </a>
+            <a href="mailto:harshabarik2005@gmail.com" class="social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <h3>Languages</h3>
+          <div class="skill-icons">
+            <div class="skill-icon"><i class="devicon-java-plain"></i><span>Java</span></div>
+            <div class="skill-icon"><i class="devicon-python-plain"></i><span>Python</span></div>
+            <div class="skill-icon"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+            <div class="skill-icon"><i class="devicon-c-plain"></i><span>C</span></div>
+            <div class="skill-icon"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Web & Frameworks</h3>
+          <div class="skill-icons">
+            <div class="skill-icon"><i class="devicon-react-original"></i><span>React</span></div>
+            <div class="skill-icon"><i class="devicon-nodejs-plain"></i><span>Node.js</span></div>
+            <div class="skill-icon"><i class="devicon-flask-original"></i><span>Flask</span></div>
+            <div class="skill-icon"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+            <div class="skill-icon"><i class="devicon-css3-plain"></i><span>CSS</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>ML &amp; AI</h3>
+          <div class="skill-icons">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                width="28" height="28">
+                <path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z" />
+                <path d="M6 12h12" />
+                <circle cx="7" cy="17" r="2" />
+                <circle cx="17" cy="17" r="2" />
+                <circle cx="12" cy="20" r="2" />
+                <line x1="8" y1="12" x2="7" y2="15" />
+                <line x1="16" y1="12" x2="17" y2="15" />
+                <line x1="12" y1="12" x2="12" y2="18" />
+              </svg><span>Machine Learning</span></div>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                width="28" height="28">
+                <circle cx="6" cy="6" r="1.5" />
+                <circle cx="12" cy="4" r="1.5" />
+                <circle cx="18" cy="6" r="1.5" />
+                <circle cx="5" cy="12" r="1.5" />
+                <circle cx="12" cy="12" r="1.5" />
+                <circle cx="19" cy="12" r="1.5" />
+                <circle cx="8" cy="19" r="1.5" />
+                <circle cx="16" cy="19" r="1.5" />
+                <line x1="6" y1="7.5" x2="5" y2="10.5" />
+                <line x1="6" y1="7.5" x2="12" y2="10.5" />
+                <line x1="12" y1="5.5" x2="5" y2="10.5" />
+                <line x1="12" y1="5.5" x2="12" y2="10.5" />
+                <line x1="12" y1="5.5" x2="19" y2="10.5" />
+                <line x1="18" y1="7.5" x2="12" y2="10.5" />
+                <line x1="18" y1="7.5" x2="19" y2="10.5" />
+                <line x1="5" y1="13.5" x2="8" y2="17.5" />
+                <line x1="12" y1="13.5" x2="8" y2="17.5" />
+                <line x1="12" y1="13.5" x2="16" y2="17.5" />
+                <line x1="19" y1="13.5" x2="16" y2="17.5" />
+              </svg><span>Deep Learning</span></div>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                width="28" height="28">
+                <circle cx="12" cy="5" r="2" />
+                <circle cx="5" cy="12" r="2" />
+                <circle cx="19" cy="12" r="2" />
+                <circle cx="8" cy="20" r="2" />
+                <circle cx="16" cy="20" r="2" />
+                <line x1="12" y1="7" x2="5" y2="10" />
+                <line x1="12" y1="7" x2="19" y2="10" />
+                <line x1="5" y1="14" x2="8" y2="18" />
+                <line x1="5" y1="14" x2="16" y2="18" />
+                <line x1="19" y1="14" x2="8" y2="18" />
+                <line x1="19" y1="14" x2="16" y2="18" />
+              </svg><span>Neural Networks</span></div>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                width="28" height="28">
+                <rect x="3" y="3" width="18" height="14" rx="2" />
+                <circle cx="9" cy="10" r="2" />
+                <path d="M15 8h2M15 12h2" />
+                <path d="M3 17l5-4 3 2 4-3 6 5" />
+              </svg><span>Computer Vision</span></div>
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                width="28" height="28">
+                <path d="M12 2v4M8 4v6M16 4v6M4 8v8M20 8v8M6 10v4M10 6v8M14 6v8M18 10v4M8 14v4M12 10v8M16 14v4" />
+                <line x1="2" y1="20" x2="22" y2="20" />
+              </svg><span>Random Forest</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>ML Libraries</h3>
+          <div class="skill-icons">
+            <div class="skill-icon"><i class="devicon-scikitlearn-plain"></i><span>Scikit-Learn</span></div>
+            <div class="skill-icon"><i class="devicon-pandas-plain"></i><span>Pandas</span></div>
+            <div class="skill-icon"><i class="devicon-numpy-plain"></i><span>NumPy</span></div>
+            <div class="skill-icon"><i class="devicon-opencv-plain"></i><span>OpenCV</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Databases & Cloud</h3>
+          <div class="skill-icons">
+            <div class="skill-icon"><i class="devicon-mongodb-plain"></i><span>MongoDB</span></div>
+            <div class="skill-icon"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+            <div class="skill-icon"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
+            <div class="skill-icon"><i class="devicon-neo4j-plain"></i><span>Neo4j</span></div>
+            <div class="skill-icon"><i class="devicon-amazonwebservices-plain-wordmark"></i><span>AWS</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Tools</h3>
+          <div class="skill-icons">
+            <div class="skill-icon"><i class="devicon-git-plain"></i><span>Git</span></div>
+            <div class="skill-icon"><i class="devicon-github-original"></i><span>GitHub</span></div>
+            <div class="skill-icon"><i class="devicon-vercel-original"></i><span>Vercel</span></div>
+            <div class="skill-icon"><i class="devicon-vscode-plain"></i><span>VS Code</span></div>
+            <div class="skill-icon"><i class="devicon-jupyter-plain"></i><span>Jupyter</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>CS Fundamentals</h3>
+          <ul class="skill-list">
+            <li>Data Structures & Algorithms</li>
+            <li>Object-Oriented Programming</li>
+            <li>DBMS</li>
+            <li>Operating Systems</li>
+            <li>Computer Networks</li>
+            <li>System Design</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="education-card reveal">
+        <div class="edu-header">
+          <div>
+            <h3>Ballari Institute of Technology and Management</h3>
+            <p class="edu-degree">B.E. in Computer Science and Engineering</p>
+            <p class="edu-location">Ballari, Karnataka, India</p>
+          </div>
+          <div class="edu-meta">
+            <span class="edu-year">2023 — 2027</span>
+            <span class="edu-cgpa">CGPA: 8.9 / 10.0</span>
+          </div>
+        </div>
+        <div class="edu-coursework">
+          <h4>Relevant Coursework</h4>
+          <div class="coursework-tags">
+            <span>Data Structures & Algorithms</span>
+            <span>Object-Oriented Programming</span>
+            <span>Database Management Systems</span>
+            <span>Operating Systems</span>
+            <span>Computer Networks</span>
+            <span>Artificial Intelligence</span>
+            <span>Machine Learning</span>
+            <span>Web Technologies</span>
+            <span>Software Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+
+      <div class="project-tabs reveal">
+        <button class="tab-btn active" data-tab="completed">Completed</button>
+        <button class="tab-btn" data-tab="ongoing">Ongoing</button>
+        <button class="tab-btn" data-tab="upcoming">Upcoming</button>
+      </div>
+
+      <!-- Completed -->
+      <div class="tab-content active" id="tab-completed">
+        <div class="projects-grid">
+
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/images/swasthya_ai_preview_1774254036882.png" alt="Swasthya AI"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.85; grid-area: 1/1;" />
+            </div>
+            <div class="project-body">
+              <div class="project-year">2024 — 2025</div>
+              <h3>Swasthya AI — Holistic Wellness Companion</h3>
+              <p>An intelligent, AI-powered wellness web application that bridges the gap between modern lifestyles and
+                holistic health practices. Acts as a personal wellness coach — understanding each user's physiological
+                profile to generate safe, personalized wellness plans.</p>
+              <ul class="project-highlights">
+                <li>Dual-AI engine combining Google Gemini 2.5 Flash + custom Random Forest classifiers</li>
+                <li>Personalized recommendations across 4 health conditions</li>
+                <li>Multilingual support (English, Hindi, Telugu, Kannada) with Text-to-Speech</li>
+                <li>Gamified progress system with daily streaks and analytics dashboard</li>
+              </ul>
+              <div class="project-tech">
+                <span>Python</span><span>Flask</span><span>Scikit-Learn</span><span>Gemini
+                  AI</span><span>MongoDB</span><span>Chart.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Harshabarik2005/swasthya_ai" target="_blank" rel="noopener"
+                  class="proj-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  GitHub
+                </a>
+                <a href="#" class="proj-link demo-coming-soon" onclick="showDeployPopup(event)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/images/greenfield_library_preview_1774254056714.png" alt="Greenfield Library"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.85; grid-area: 1/1;" />
+            </div>
+            <div class="project-body">
+              <div class="project-year">2025</div>
+              <h3>Greenfield University Instant Library — Cloud-Based LMS</h3>
+              <p>A comprehensive, cloud-enabled library management system built for Greenfield University, providing
+                dual portals for students and administrators. Fully deployed on AWS infrastructure with high
+                availability.</p>
+              <ul class="project-highlights">
+                <li>Full-stack LMS across 4 AWS services — EC2, S3, DynamoDB, SNS</li>
+                <li>React (Vite) frontend with premium dark-mode interface</li>
+                <li>Secure digital PDF delivery via Amazon S3 presigned URLs</li>
+                <li>Event-driven notifications with Amazon SNS</li>
+                <li>2 fully featured role-based portals (Student + Admin)</li>
+              </ul>
+              <div class="project-tech">
+                <span>React</span><span>Vite</span><span>Node.js</span><span>AWS
+                  EC2</span><span>S3</span><span>DynamoDB</span><span>SNS</span><span>Vercel</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Harshabarik2005/greenfield_university" target="_blank" rel="noopener"
+                  class="proj-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  GitHub
+                </a>
+                <a href="https://instant-library-frontend.vercel.app/" target="_blank" rel="noopener" class="proj-link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/images/pothole_detection_preview_1774254073264.png" alt="Pothole Detection"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.85; grid-area: 1/1;" />
+            </div>
+            <div class="project-body">
+              <div class="project-year">2024 — 2025</div>
+              <h3>AI Pothole Detection and Reporting System</h3>
+              <p>A comprehensive web-based civic system enabling citizens to report potholes and municipality workers to
+                manage and prioritize road repairs. Features AI-powered auto-detection and a full analytics suite.</p>
+              <ul class="project-highlights">
+                <li>Automated road damage identification using trained YOLOv8 + OpenCV model</li>
+                <li>10+ endpoint REST API with FastAPI, JWT authentication</li>
+                <li>3-tier severity scoring system (High/Medium/Low) with location-aware reporting</li>
+                <li>Comprehensive analytics dashboard with pie charts, trends, and CSV export</li>
+                <li>🏆 Topped Smart Mobility track at HackKarnataka</li>
+              </ul>
+              <div class="project-tech">
+                <span>Python</span><span>FastAPI</span><span>YOLOv8</span><span>MongoDB</span><span>React
+                  19</span><span>Tailwind CSS</span><span>Recharts</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Harshabarik2005/municpality" target="_blank" rel="noopener"
+                  class="proj-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  GitHub
+                </a>
+                <a href="#" class="proj-link demo-coming-soon" onclick="showDeployPopup(event)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Ongoing -->
+      <div class="tab-content" id="tab-ongoing">
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/images/uav_drone_preview_1774254092843.png" alt="Autonomous UAV"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.85; grid-area: 1/1;" />
+            </div>
+            <div class="project-body">
+              <div class="project-year">2025 (Ongoing)</div>
+              <h3>Centralized Single-UAV Architecture for Disaster Response</h3>
+              <p>An autonomous "Thin Client" drone response system for humanitarian logistics in post-disaster areas.
+                Uses a lightweight mobile sensory edge node streaming high-bandwidth thermal/optical data to a Ground
+                Base Station for heavy cognitive processing.</p>
+              <ul class="project-highlights">
+                <li><strong>Phase I (Scout):</strong> Automated grid search via GPS streaming live video + thermal
+                  mapping.</li>
+                <li><strong>Phase II (Evaluator):</strong> Real-time YOLOv11 inference detecting stranded survivors;
+                  CrewAI orchestrates mission logic.</li>
+                <li><strong>Phase III (Courier):</strong> Pushes hazard-free routes to Android Team Awareness Kit (ATAK)
+                  and triggers servo-driven medical drops.</li>
+              </ul>
+              <div class="project-tech">
+                <span>Python</span><span>YOLOv11</span><span>CrewAI</span><span>Raspberry Pi</span><span>Thermal
+                  Sensors</span><span>Edge Computing</span><span>ATAK</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Harshabarik2005" target="_blank" rel="noopener" class="proj-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  Repository Pending
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upcoming -->
+      <div class="tab-content" id="tab-upcoming">
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/images/knowledge_graph_preview_1774254109006.png" alt="Decentralized Graph"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.85; grid-area: 1/1;" />
+            </div>
+            <div class="project-body">
+              <div class="project-year">Upcoming Architecture</div>
+              <h3>Decentralized Knowledge Graph for Misinformation Tracking</h3>
+              <p>A sophisticated Neuro-Symbolic AI project that moves beyond basic NLP text classification toward
+                logical verification and source trust. Combines LLMs, Graph Logic, and Blockchain to cross-reference
+                claims against verified truths.</p>
+              <ul class="project-highlights">
+                <li><strong>Fact Extraction:</strong> LangChain + Ollama deconstructs news articles into
+                  Subject-Predicate-Object "Fact Triples".</li>
+                <li><strong>Knowledge Graph:</strong> Maps triples into Neo4j and cross-references them against
+                  established Ground Truth datasets.</li>
+                <li><strong>Provenance Tracking:</strong> Utilizes Hardhat/Ethereum local nodes to store hashes of
+                  verified facts, tracking edit histories immutably.</li>
+              </ul>
+              <div class="project-tech">
+                <span>Neo4j</span><span>LangChain</span><span>Ollama</span><span>Ethereum/Hardhat</span><span>React</span><span>D3.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Harshabarik2005" target="_blank" rel="noopener" class="proj-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  Architecture Planning
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <h2 class="section-title reveal">Achievements & Patents</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal-timeline" data-side="left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">🏆 Patent</div>
+            <h3>Indian Patent Published</h3>
+            <span class="timeline-date">January 2026</span>
+            <p><strong>Swasthya AI Wellness Application</strong> for Personalized Lifestyle Management Through
+              Context-Aware Multimodal Health Analytics</p>
+            <p class="timeline-detail">Application No. 202541120401 &bull; Indian Patent Office &bull; Field:
+              Bio-Medical Engineering &bull; Status: Awaiting Request for Examination</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-timeline" data-side="right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">🥇 Winner</div>
+            <h3>Track Winner — HackKarnataka</h3>
+            <span class="timeline-date">November 2025</span>
+            <p>Topped the <strong>Smart Mobility track</strong> at the state-level HackKarnataka hackathon, delivering a
+              fully functional AI-powered road reporting system within the competition timeframe.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-timeline" data-side="left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">🥈 Runner-Up</div>
+            <h3>2nd Place — Smart India Hackathon</h3>
+            <span class="timeline-date">September 2025</span>
+            <p>Recognized for building an innovative and technically robust solution in a competitive national-level
+              internal hackathon (Internal Round).</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-timeline" data-side="right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">🥉 3rd Place</div>
+            <h3>3rd Place — College Ideathon</h3>
+            <span class="timeline-date">November 2024</span>
+            <p>Awarded for presenting a practical, scalable, and well-articulated technology solution to a panel of
+              industry judges.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-timeline" data-side="left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">🎤 Leadership</div>
+            <h3>Host & Event Manager — Student Induction Program</h3>
+            <span class="timeline-date">October 2024</span>
+            <p>Coordinated and hosted the annual student induction program at BITM. Served as primary on-stage host and
+              master of ceremonies, managing end-to-end event logistics.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER / CONTACT ===== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <p class="footer-text reveal">I'm always open to new opportunities, collaborations, and conversations about tech.
+      </p>
+      <div class="footer-links reveal">
+        <a href="assets/Harsha_Resume.pdf" target="_blank" rel="noopener" class="footer-link" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume
+        </a>
+        <a href="mailto:harshabarik2005@gmail.com" class="footer-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+          harshabarik2005@gmail.com
+        </a>
+        <a href="tel:+917975812967" class="footer-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          +91-7975812967
+        </a>
+        <a href="https://github.com/Harshabarik2005" target="_blank" rel="noopener" class="footer-link">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+          </svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/harshabarik" target="_blank" rel="noopener" class="footer-link">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Harsha B. Crafted with precision.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Deploy Coming Soon Popup -->
+  <div class="deploy-popup-overlay" id="deployPopup">
+    <div class="deploy-popup">
+      <button class="deploy-popup-close" onclick="hideDeployPopup()">&times;</button>
+      <div class="deploy-popup-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="48" height="48">
+          <path d="M12 2L2 7l10 5 10-5-10-5z" />
+          <path d="M2 17l10 5 10-5" />
+          <path d="M2 12l10 5 10-5" />
+        </svg>
+      </div>
+      <h3>Deployment Coming Soon!</h3>
+      <p>This project is currently being prepared for deployment. A live demo will be available shortly. Stay tuned!</p>
+      <button class="btn btn-primary" onclick="hideDeployPopup()"
+        style="margin-top:16px;font-size:0.85rem;padding:10px 28px;">Got it</button>
+    </div>
+  </div>
+
+  <script>
+    function showDeployPopup(e) {
+      e.preventDefault();
+      document.getElementById('deployPopup').classList.add('active');
+    }
+    function hideDeployPopup() {
+      document.getElementById('deployPopup').classList.remove('active');
+    }
+    document.getElementById('deployPopup').addEventListener('click', function (e) {
+      if (e.target === this) hideDeployPopup();
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
